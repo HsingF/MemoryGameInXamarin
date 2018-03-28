@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppMemoria"
+             x:Class="AppMemoria.MainPage">
+
+    <StackLayout>
+        
+        <Label Text="Juego de memoria !" 
+           VerticalOptions="CenterAndExpand" 
+           HorizontalOptions="CenterAndExpand" />
+
+        <Grid>
+            <Button AutomationId="00" Text=" " BackgroundColor="Orange" Grid.Row="0" Grid.Column="0" Clicked="ButtonClicked"/>
+            <Button AutomationId="01" Text=" " BackgroundColor="Orange" Grid.Row="0" Grid.Column="1" Clicked="ButtonClicked"/>
+            <Button AutomationId="02" Text=" " BackgroundColor="Orange" Grid.Row="0" Grid.Column="2" Clicked="ButtonClicked"/>
+            <Button AutomationId="03" Text=" " BackgroundColor="Orange" Grid.Row="0" Grid.Column="3" Clicked="ButtonClicked"/>
+            <Button AutomationId="04" Text=" " BackgroundColor="Orange" Grid.Row="0" Grid.Column="4" Clicked="ButtonClicked"/>
+
+            <Button AutomationId="10" Text=" " BackgroundColor="Orange" Grid.Row="1" Grid.Column="0" Clicked="ButtonClicked"/>
+            <Button AutomationId="11" Text=" " BackgroundColor="Orange" Grid.Row="1" Grid.Column="1" Clicked="ButtonClicked"/>
+            <Button AutomationId="12" Text=" " BackgroundColor="Orange" Grid.Row="1" Grid.Column="2" Clicked="ButtonClicked"/>
+            <Button AutomationId="13" Text=" " BackgroundColor="Orange" Grid.Row="1" Grid.Column="3" Clicked="ButtonClicked"/>
+            <Button AutomationId="14" Text=" " BackgroundColor="Orange" Grid.Row="1" Grid.Column="4" Clicked="ButtonClicked"/>
+
+            <Button AutomationId="20" Text=" " BackgroundColor="Orange" Grid.Row="2" Grid.Column="0" Clicked="ButtonClicked"/>
+            <Button AutomationId="21" Text=" " BackgroundColor="Orange" Grid.Row="2" Grid.Column="1" Clicked="ButtonClicked"/>
+            <Button AutomationId="22" Text=" " BackgroundColor="Orange" Grid.Row="2" Grid.Column="2" Clicked="ButtonClicked"/>
+            <Button AutomationId="23" Text=" " BackgroundColor="Orange" Grid.Row="2" Grid.Column="3" Clicked="ButtonClicked"/>
+            <Button AutomationId="24" Text=" " BackgroundColor="Orange" Grid.Row="2" Grid.Column="4" Clicked="ButtonClicked"/>
+
+            <Button AutomationId="30" Text=" " BackgroundColor="Orange" Grid.Row="3" Grid.Column="0" Clicked="ButtonClicked"/>
+            <Button AutomationId="31" Text=" " BackgroundColor="Orange" Grid.Row="3" Grid.Column="1" Clicked="ButtonClicked"/>
+            <Button AutomationId="32" Text=" " BackgroundColor="Orange" Grid.Row="3" Grid.Column="2" Clicked="ButtonClicked"/>
+            <Button AutomationId="33" Text=" " BackgroundColor="Orange" Grid.Row="3" Grid.Column="3" Clicked="ButtonClicked"/>
+            <Button AutomationId="34" Text=" " BackgroundColor="Orange" Grid.Row="3" Grid.Column="4" Clicked="ButtonClicked"/>
+
+            <Button AutomationId="40" Text=" " BackgroundColor="Orange" Grid.Row="4" Grid.Column="0" Clicked="ButtonClicked"/>
+            <Button AutomationId="41" Text=" " BackgroundColor="Orange" Grid.Row="4" Grid.Column="1" Clicked="ButtonClicked"/>
+            <Button AutomationId="42" Text=" " BackgroundColor="Orange" Grid.Row="4" Grid.Column="2" Clicked="ButtonClicked"/>
+            <Button AutomationId="43" Text=" " BackgroundColor="Orange" Grid.Row="4" Grid.Column="3" Clicked="ButtonClicked"/>
+            <Button AutomationId="44" Text=" " BackgroundColor="Orange" Grid.Row="4" Grid.Column="4" Clicked="ButtonClicked"/>
+        </Grid>
+
+        <Button Text="PRINT"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand"
+            Clicked="PrintClicked"
+        />
+
+    </StackLayout>
+
+</ContentPage>
